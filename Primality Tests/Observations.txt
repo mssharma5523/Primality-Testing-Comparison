@@ -1,0 +1,35 @@
+MAX_PRIME = 15485863
+
+Trial Division
+	Time taken : 140.811855078 sec
+
+Fermat Little Theorem : 
+	k = 10, time = 39.9157860279 sec
+	k = 100, time = 342.412580967 sec
+	k = 1, time = 35.5812470913 sec
+
+Miller Rabin Test
+
+	k = 10, time = 52.5704090595 sec
+	k = 100, time = 461.214740038 sec
+	k = 1, time = 70.2141299248 sec
+
+Solovay_strassen test
+	k = 10, time = 158.615675926 seconds
+	k = 100, time = 2282.13815999 sec
+	k = 1, time = 195.167253971 sec
+
+AKS test 
+Time = 32936.21855 sec
+
+Pocklington Test
+Time = 72536 sec and verified upto 8324
+
+Lucas Lehmer test
+Time = 72536 sec and verified for Mersemhese prime upto 44537
+
+
+Sieve of Eratosthenesis, time = 16.8654940128
+						time = 0.582002162933, limit = 1000000
+Sieve of Atkin, time = 53.2122488022 sec
+				time = 1.92054605484, limit = 1000000
